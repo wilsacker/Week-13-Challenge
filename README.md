@@ -100,9 +100,13 @@ The walkthrough video demonstrates how to:
 
 ## Technologies
 
-•	Node.js: Backend framework used to build the application.
-•	PostgreSQL: Database for storing company employee data.
-•	pg-pool: PostgreSQL client for Node.js to manage database connections.
+	•	Node.js: JavaScript runtime for building the back end.
+	•	Express.js: Web framework for routing and API handling.
+	•	PostgreSQL: Relational database for storing product, category, and tag data.
+	•	Sequelize: ORM for interacting with the PostgreSQL database.
+	•	pg: PostgreSQL client for Node.js.
+	•	dotenv: Loads environment variables from a .env file.
+
 
 ## License
 
@@ -114,7 +118,7 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 ## Tests
 
-This project doesn’t include any test suites, but you can manually test it by interacting with the application or by setting up jest.
+This project doesn’t include any test suites, but you can manually test it by following the usage directions.
 
 ## Questions
 
